@@ -29,7 +29,6 @@ export default function App() {
 
   const countTotalFeedback = () => {
     const total = good + neutral + bad;
-    console.log(total);
     return total;
   };
 
